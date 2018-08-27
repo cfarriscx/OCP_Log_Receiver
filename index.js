@@ -21,7 +21,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.post('/logs', jsonParser, function (req, res) {
     console.log(req.body.log)
-    if (!req.body) return res.sendStatus(400)
+    return res.sendStatus(400)
   })
 
 app.listen(8080, () => console.log('Example app listening on port 8080!'))
