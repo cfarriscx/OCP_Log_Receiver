@@ -17,6 +17,7 @@ app.post('/logs', function(request, response) {
     response.end("success")
 })
 */
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.post('/logs', jsonParser, function (req, res) {
     console.log(req.body.log)
