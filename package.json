@@ -1,0 +1,22 @@
+{
+  "name": "ocp_log_receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfarriscx/OCP_Log_Receiver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfarriscx/OCP_Log_Receiver/issues"
+  },
+  "homepage": "https://github.com/cfarriscx/OCP_Log_Receiver#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
